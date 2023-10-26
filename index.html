@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+
+
+
+    <section class="sign_up">
+        <div class="container">
+            <h1>Register</h1>
+            <p id="create">Create your account. It's free and only takes a minute</p>
+            <div class="name">
+                <input type="text" id="firstName" placeholder="First Name" required>
+                <input type="text" id="lastName" placeholder="Last Name" required>
+                <span id="nameError" class="error"></span>
+            </div>
+            <div class="details">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                <span id="passwordError" class="error"></span>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="terms" class="check" required>
+                <label for="terms" class="check">I accept the <a href="The specific content of terms of us.html">Terms of use</a> & <a
+                        id="privacy" href="Privacy Policy.html">Privacy Policy</a>
+                </label>
+            </div>
+            <button id="register_btn">Register Now</button>
+            <span id="formError" class="error"></span>
+        </div>
+    </section>
+
+    <section class="sign_in">
+        <div class="container">
+            <div class="signIn">
+                <p>Already have an account?<span><a href="#">Sign in</a></span></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
